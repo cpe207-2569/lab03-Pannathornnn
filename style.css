@@ -1,0 +1,121 @@
+body {
+  background-color: #111111;
+  color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #ff6b1a;
+}
+
+.navbar-custom {
+  background-color: #000000;
+  border-bottom: 1px solid #ff6b1a;
+}
+
+.navbar-custom .navbar-brand {
+  color: #eeeeee;
+}
+
+.navbar-custom .navbar-brand span {
+  color: #ff6b1a;
+}
+
+.navbar-custom .nav-link {
+  color: #eeeeee;
+}
+
+.navbar-custom .nav-link.active {
+  color: #ff6b1a;
+}
+
+.page-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.accent {
+  color: #ff6b1a;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ff6b1a;
+}
+
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.stat-box {
+  border: 1px solid #444444;
+  padding: 0.5rem 1rem;
+  flex: 1 1 150px;
+}
+
+.info-card {
+  border: 1px solid #444444;
+}
+
+.info-card .card-body {
+  padding: 1rem;
+}
+
+.info-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-flex-wrap > .info-card {
+  flex: 1 1 220px;
+  max-width: 260px;
+}
+
+.contact-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 2px solid #ff6b1a;
+}
+
+.contact-table td {
+  padding: 0.4rem 1rem 0.4rem 0;
+}
+
+.contact-table td.label {
+  color: #ff6b1a;
+}
+
+.site-footer {
+  border-top: 1px solid #444444;
+  text-align: center;
+  padding: 1rem;
+}

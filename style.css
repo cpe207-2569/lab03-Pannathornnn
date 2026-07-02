@@ -126,7 +126,7 @@ a:hover{
     display:flex;
     overflow:hidden;
     background:#1b1b1b;
-    border:1px solid #ff6b1a;
+    border: 0.5px solid #ff6b1a;
     border-radius:12px;
     margin-bottom:25px;
     transition:.2s;
@@ -147,7 +147,7 @@ a:hover{
 }
 
 .fav-card h3{
-    color:#ff6b1a;
+    color:#eee;
 }
 
 /* Gallery */

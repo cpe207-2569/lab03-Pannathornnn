@@ -184,12 +184,12 @@ a:hover{
     padding:18px;
 }
 
-.info-card p{
-    color:#eee;
-}
-
 .info-card h5{
     color:#ff6b1a;
+}
+
+.info-card p{
+    color:#ccc;
 }
 
 /* Contact */

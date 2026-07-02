@@ -184,6 +184,10 @@ a:hover{
     padding:18px;
 }
 
+.info-card p{
+    color:#eee;
+}
+
 .info-card h5{
     color:#ff6b1a;
 }
@@ -218,7 +222,7 @@ a:hover{
     border-top:1px solid #333;
     text-align:center;
     padding:20px;
-    color:#eee;
+    color:#888;
 }
 
 /* Responsive */

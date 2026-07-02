@@ -45,7 +45,6 @@ a:hover {
   font-weight: bold;
 }
 
-/* Toggler icon color for dark mode */
 .navbar-toggler {
   border-color: #ff6b1a;
 }
@@ -125,7 +124,7 @@ a:hover {
 .fav-card {
   display: flex;
   flex-direction: row;
-  border: 2px solid #ff6b1a; /* Outline requested */
+  border: 2px solid #ff6b1a;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 1.5rem;
@@ -170,7 +169,7 @@ a:hover {
 }
 
 .info-card {
-  border: 2px solid #ff6b1a; /* Outline requested */
+  border: 2px solid #ff6b1a;
   border-radius: 8px;
   overflow: hidden;
   width: 250px;

@@ -10,30 +10,35 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
-  <div class="container d-flex justify-content-center">
-    <div class="navbar-nav flex-row gap-4">
-      <a class="nav-link active" href="index.html">Home</a>
-      <a class="nav-link" href="fav.html">Favorites</a>
-      <a class="nav-link" href="gal.html">Gallery</a>
-      <a class="nav-link" href="contact.html">Contact</a>
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><span>Super</span>BusS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="fav.html">Favorites</a></li>
+        <li class="nav-item"><a class="nav-link" href="gal.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
     </div>
   </div>
 </nav>
 
 <section class="page-section">
-  <div class="hero-flex">
+  <div class="hero-flex mt-4">
     <img src="img/profile.jpeg" alt="Player photo" class="hero-photo">
 
     <div class="hero-info">
       <h1>SuperBusS</h1>
+      <div class="hero-role">Lurker &middot; Pro Player</div>
       <p class="hero-bio">
         I'm SupperBuss. I'm main Lurker in Valorant from Fullsense Esport and the greatest Reyna player in SEA.
       </p>
     </div>
   </div>
 
-  <h2 class="section-title mt-5">Stats</h2>
-  
   <div class="stat-container">
     <div class="stat-box">
       <div class="label">Team</div>
@@ -41,7 +46,7 @@
     </div>
     <div class="stat-box">
       <div class="label">Role</div>
-      <div class="value">Duelist / Lurker</div>
+      <div class="value">Duelist</div>
     </div>
     <div class="stat-box">
       <div class="label">Rank</div>

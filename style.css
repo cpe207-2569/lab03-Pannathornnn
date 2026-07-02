@@ -13,8 +13,6 @@ a:hover{
     text-decoration:underline;
 }
 
-/* Navbar */
-
 .navbar-custom{
     background:#000;
     border-bottom:2px solid #ff6b1a;
@@ -51,15 +49,11 @@ a:hover{
     background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,107,26,1)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-/* Page */
-
 .page-section{
     max-width:1000px;
     margin:auto;
     padding:50px 20px;
 }
-
-/* Hero */
 
 .hero-section{
     margin-bottom:50px;
@@ -92,8 +86,6 @@ a:hover{
     color:#ccc;
 }
 
-/* Stat */
-
 .stat-container{
     display:flex;
     flex-direction:column;
@@ -119,8 +111,6 @@ a:hover{
 .value{
     font-size:1.1rem;
 }
-
-/* Favorite */
 
 .fav-card{
     display:flex;
@@ -149,8 +139,6 @@ a:hover{
 .fav-card h3{
     color:#ff6b1a;
 }
-
-/* Gallery */
 
 .card-flex-wrap{
     display:flex;
@@ -192,8 +180,6 @@ a:hover{
     color:#ccc;
 }
 
-/* Contact */
-
 .contact-flex{
     display:flex;
     gap:40px;
@@ -216,7 +202,6 @@ a:hover{
     color:#ff6b1a;
 }
 
-/* Footer */
 
 .site-footer{
     border-top:1px solid #333;
@@ -225,7 +210,6 @@ a:hover{
     color:#7b7b7b;
 }
 
-/* Responsive */
 
 @media (max-width:768px){
 
